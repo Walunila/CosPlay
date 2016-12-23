@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+Body{
+	background-color: #C3F5FF;
+	width: 100%;		
+}
+	
+#Banner{
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color: #F09;
+	background-image: url(../images/book-fair-678264_1280.jpg);
+	/*below: for extending banner to edge*/
+	position: absolute; /*if its static, i assume the banner wont move when page is expanded/contracted*/
+	top: 0;
+	height: 270px;
+	width: 100%;
+}
+
+#Navigation_Bar{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 24px;
+	align: center;
+	background-color: #FFF;
+	/*below: use this to move nav bar around*/
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 220px;
+	width: 100%;
+	height: 36px;
+}
+
+#Navigation_Bar a{
+	text-decoration: none;/*underline default removed (while creating link)*/
+	color: #900;
+}
+
+#Main_Content{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #036;
+	position: absolute;
+	top: 318px;
+	left: 160px;
+	width: 757px;
+	height: 698px;
+	background-color: #FFF;
+	padding: 15px; /*space is created between border and text/image*/
+}
+
+#content{
+	position: absolute;
+	left: 37px;
+	top: 18px;
+	width: 701px;
+	height: 651px;
+	}
+	
+#content1{
+	position: absolute;
+	left: 369px;
+	top: 19px;
+	width: 399px;
+	height: 689px;
+	}
+	
+#links{
+	position: absolute;
+	left: 18px;
+	top: 498px;
+	width: 354px;
+	height: 207px;
+}
+ 
+#sidebar{
+	position: absolute; /* use this so that content can be entered alongside si bar*/
+	left: 773px;
+	top: -18px;
+	height: 119px;
+	width: 178px;
+}
+
+#sidebar li{
+	font: 14px Arial;
+	list-style-type: none; /*remove bullet points*/
+
+	}
+
+#sidebar a{
+	display: block;
+	padding: 5px;
+	width: 210px;
+	text-align:left;
+	color: #903; /*font color*/
+	text-decoration: none; /*underline default removed (while creating link*/
+	border-bottom: 2px solid #930;
+	background-color:#E5F7FF;
+}
+
+#sidebar a:hover {
+	background-color:#5EBACC;
+	font-weight: bold;
+}
+
+#table{
+	position: absolute;
+	left: 18px;
+	top: 304px;
+	height: 369px;
+	width: 747px;
+}
+
+#announcement{
+	position: absolute; /* use this so that content can be entered alongside si bar*/
+	left: 797px;
+	top: -19px;
+	height: 343px;
+	width: 20px;
+	font-size: 12px;
+}
+
+#announcement a{
+	display:block;
+	padding: 5px;
+	width: 200px;
+	text-align:justify;
+	color: #000; /*font color*/
+	text-decoration: none; /*underline default removed (while creating link*/
+	border-bottom: 2px solid #930;
+	background-color:#FFC;
+}
+
+	
+#Footer{
+	color: #333;
+	text-align: center;
+	position: absolute;
+	top: 1045px;
+	left: 426px;
+	width: 278px;
+	height: 44px;
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Cossie Play</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="OptionalRegion1" type="boolean" value="true" -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/CossiePlay.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="Banner">
+  <h1 align="center">Cossie Play</h1>
+</div>
+
+<div id="Navigation_Bar">
+  <div align="center">
+    <a href="../index.html">Home | </a>
+    <a href="../about us.html">About us </a><a href="">|</a>
+    <a href="../buy.html"> Buy | </a>
+    <a href="../register.html">Register | </a>
+    <a href="../contact us.html">Contact us </a></div>
+</div>
+
+<div id="Main_Content"> 
+<!-- TemplateBeginEditable name="Main_Content" -->
+<p>Content</p>
+<!-- TemplateEndEditable -->
+</div>
+
+<div id="Footer">
+  <p>&copy;2016 Cossie Play. All rights reserved</p>
+</div>
+</body>
+</html>
